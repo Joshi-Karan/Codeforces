@@ -9,7 +9,7 @@ val.sort()
 val = set(val)
 val = list(val)
 check = False
-if len(val) > 3:
+if len(val) >= 3:
     for i in range(0, len(val) - 2):
         if (val[i + 2] - val[i]) <= 2:
             check = True
